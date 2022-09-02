@@ -111,12 +111,11 @@ Follow some screenshots of the project:
 ./monitoring/prefect-monitoring/trade_value_drift_report_2022-08-28-13-56.html)
 
 # References
-[Course homepage](https://github.com/DataTalksClub/mlops-zoomcamp)
-https://pipenv.pypa.io/en/latest/basics/
-https://pipenv.pypa.io/en/latest/advanced/
-https://machinelearningmastery.com/hyperopt-for-automated-machine-learning-with-scikit-learn/
-https://neptune.ai/blog/ml-experiment-tracking
-https://mlflow.org/docs/latest/tracking.html#automatic-logging
-https://github.com/mlflow/mlflow/blob/master/mlflow/store/db_migrations/README.md
-
-[My course notes](https://github.com/zioalex/mlops-zoomcamp)
+- [Course homepage](https://github.com/DataTalksClub/mlops-zoomcamp)
+- https://pipenv.pypa.io/en/latest/basics/
+- https://pipenv.pypa.io/en/latest/advanced/
+- https://machinelearningmastery.com/hyperopt-for-automated-machine-learning-with-scikit-learn/
+- https://neptune.ai/blog/ml-experiment-tracking
+- https://mlflow.org/docs/latest/tracking.html#automatic-logging
+- https://github.com/mlflow/mlflow/blob/master/mlflow/store/db_migrations/README.md
+- [My course notes](https://github.com/zioalex/mlops-zoomcamp)
