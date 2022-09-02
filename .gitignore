@@ -1,16 +1,15 @@
-**data/
 .ipynb_checkpoints
 .bin
 *.db
 
-*.parquet
+#*.parquet
 *.html
 *.csv
 
 .venv
 venv
 .idea
-**/*.pkl
+#**/*.pkl
 
 **/artifacts/
 **/models/
