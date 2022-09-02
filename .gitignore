@@ -21,3 +21,4 @@ __pycache__/
 **.terraform.lock*
 **terraform.tfstate*
 **.vscode/*
+**prefect/
