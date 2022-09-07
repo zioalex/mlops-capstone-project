@@ -4,8 +4,10 @@
 - [Software requirements](#software-requirements)
 - [The Implementation](#the-implementation)
   - [Prepare the environment](#prepare-the-environment)
+  - [Testing](#testing)
   - [Prediction Service](#prediction-service)
   - [Monitoring](#monitoring)
+  - [IaC](#iac)
 - [What you can expect](#what-you-can-expect)
 - [References](#references)
 
@@ -69,6 +71,17 @@ It will start mlflow and prefect and make everything ready to work with the Jupy
 Mlflow can be accessed at http://127.0.0.1:5000 .
 While prefect at http://127.0.0.1:4200/ .
 
+## Testing
+A simple integration test has been implemented.
+You can run it with
+
+    make test
+
+    collected 1 item                                                                                                                                                                                                                                             
+
+    tests/integration_test.py .                                                                                                                                                                                                                            [100%]
+
+    ===================================================================================================================== 1 passed in 0.81s ======================================================================================================================
 ## Prediction Service
 The model has been dockerized and it is ready for deployment in the cloud. The code is available in [./monitoring/predicition_service](./monitoring/predicition_service).
 
@@ -94,6 +107,17 @@ To test the monitoring you can send data to mongoDB with the script send_data.py
 And the create a prefect report with:
 
     make prefect_monitoring
+
+## IaC
+An initial version of the needed infrastructure is available in Terraform using Localstack.
+
+ECR ( Elastic Container Registry) is not available in the free Localstack version therefore I hacked the ECR module to use instead the local docker daemon using the module `kreuzwerker/docker`.
+
+You can start the full stack with
+
+    make full_stack
+
+Although it will fail deploying the lambda function.
 
 # What you can expect
 Follow some screenshots of the project:
