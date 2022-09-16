@@ -50,7 +50,7 @@ joblib==1.1.0
 jsonpatch==1.32
 jsonpointer==2.3
 kubernetes==24.2.0
-mako==1.2.1
+mako==1.2.2
 markupsafe==2.1.1
 msrest==0.7.1
 multidict==6.0.2
