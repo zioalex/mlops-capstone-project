@@ -62,7 +62,7 @@ patsy==0.5.2
 pendulum==2.1.2
 plotly==5.9.0
 prefect==2.0b8
-protobuf==4.21.2
+protobuf==4.21.6
 psutil==5.9.1
 pyarrow==8.0.0
 pyasn1==0.4.8
