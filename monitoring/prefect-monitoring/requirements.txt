@@ -91,7 +91,7 @@ six==1.16.0
 slack-sdk==3.17.2
 sniffio==1.2.0
 sqlalchemy[asyncio]==1.4.39
-starlette==0.19.1
+starlette==0.25.0
 statsmodels==0.13.2
 tenacity==8.0.1
 text-unidecode==1.3
